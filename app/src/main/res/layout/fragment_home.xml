@@ -130,6 +130,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginStart="16dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+                tools:listitem="@layout/item_some_top_rated"
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/lr1" />
@@ -194,6 +197,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/lr2" />
+
+
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

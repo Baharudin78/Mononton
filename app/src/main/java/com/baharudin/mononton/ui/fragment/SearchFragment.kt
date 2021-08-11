@@ -5,7 +5,9 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.baharudin.mononton.R
 import com.baharudin.mononton.databinding.FragmentSearchBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SearchFragment : Fragment(R.layout.fragment_search) {
 
     private var _binding : FragmentSearchBinding? = null
